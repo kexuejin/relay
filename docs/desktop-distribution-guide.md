@@ -88,7 +88,7 @@ cask "relay" do
 
   url "https://github.com/your-org/teahouse-mobile/releases/download/v#{version}/%E6%8D%8E%E8%AF%9D.Relay-#{version}.dmg"
   name "捎话 Relay"
-  desc "局域网直连的消息与文件传输"
+  desc "局域网 + 公网 IPv6 直连的消息与文件传输（公网走 TLS + 双向 pin）"
   homepage "https://github.com/your-org/teahouse-mobile"
 
   app "捎话 Relay.app"

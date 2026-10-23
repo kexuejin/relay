@@ -101,7 +101,7 @@ cask "relay" do
 
   zap trash: [
     "~/Library/Application Support/relay",
-    "~/Library/Saved Application State/app.relay.desktop.savedState",
+    "~/Library/Saved Application State/com.kapp.relay.desktop.savedState",
   ]
 end
 ```
